@@ -6,3 +6,6 @@ env
 
 # database
 db.sqlite3
+
+# test coverage
+.coverage
