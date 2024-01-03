@@ -25,6 +25,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
+    "product",
 ]
 
 # middlewares
@@ -95,6 +96,8 @@ LANGUAGE_CODE = "en-us"
 TIME_ZONE = "Asia/Kolkata"
 # use internationalization
 USE_I18N = True
+# use localization
+USE_L10N = True
 # use timezone
 USE_TZ = True
 
